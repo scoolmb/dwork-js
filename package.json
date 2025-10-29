@@ -1,0 +1,53 @@
+{
+  "name": "d-work",
+  "version": "0.0.1",
+  "description": "Interact with D-Work The freelance Protocol on solana blockchain",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "",
+  "repository": {
+    "url": "https://github.com/scoolmb/dropsy-airdrop"
+  },
+  "scripts": {
+    "test": "ts-node index.ts",
+    "build": "tsup"
+  },
+  "keywords": [
+    "solana",
+    "solana freelance",
+    "web3",
+    "create job",
+    "solana web3",
+    "d-work",
+    "dwork",
+    "solana devtools",
+    "solana sdk",
+    "solana token launch",
+    "nft airdrop",
+    "decentralized distribution",
+    "solana-program-library",
+    "anchor program",
+    "spl token",
+    "solana crypto",
+    "web3 jobs",
+    "solana developer tools"
+  ],
+  "author": "MBK Official",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "tsup": "^8.5.0",
+    "typedoc": "^0.28.5",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@solana-program/compute-budget": "^0.8.0",
+    "@solana-program/token": "^0.5.1",
+    "@solana/kit": "^2.1.1",
+    "merkletreejs": "^0.5.2"
+  }
+}
